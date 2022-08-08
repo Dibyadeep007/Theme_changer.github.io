@@ -1,0 +1,38 @@
+.container{
+    width: 90%;
+    height: 80vh;
+    padding: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center ;
+}
+
+.btn{
+    width: 120px;
+    padding: 5px;
+    border: 3px solid black;
+    border-radius: 20px;
+    margin: 4px 6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    color: black;
+    cursor: pointer;
+}
+#Red{
+    background-color: red;
+}
+#Yellow{
+    background-color: yellow;
+}
+#Blue{
+    background-color: blue;
+}
+#Greenyellow{
+    background-color: greenyellow;
+}
+
+.btn:hover{
+    box-shadow: 0 0 10px rgba(0, 0,0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
